@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+/*font-family: 'Pacifico', cursive;
+font-family: 'Gulzar', serif;*/
+
+body{
+    background-color: #bdc7d7;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Gulzar', serif;
+}
+nav ul li{
+    padding: 0 12px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 85px;
+    background-color: darkslateblue;
+    color: beige;
+
+}
+.brand img{
+    width: 65px;
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+
+.container{
+    background-image: url('./img/bg7.jpg');
+    min-height: 57vh;
+    background-color: #bbd8e3;
+    color:#642671;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 18px;
+    padding: 30px;
+    
+}
+
+.bottom{
+    position: sticky;
+    height: 125px;
+    background: rgb(62, 62, 112);
+    bottom: 0;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icons{
+    margin-top: 19px;
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitem img{
+    width: 50px;
+    margin: 27px 27px;
+    border-radius: 24px;
+
+}
+.songitem{
+    height: 55px;
+    display: flex;
+    background-color: #836f91;
+    color: black;
+    margin: 12px -12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    padding: 7px 10px;
+
+}
+.timestamp{
+    margin: 0 3px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 45px;
+    margin-left: 45px;
+}
+.songinfo{
+    position: absolute;
+    left: 10vh;
+    font-family: 'Gulzar', serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    padding-right: 12px;
+
+}
